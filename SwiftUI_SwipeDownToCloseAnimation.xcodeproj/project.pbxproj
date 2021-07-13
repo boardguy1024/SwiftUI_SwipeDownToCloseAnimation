@@ -14,6 +14,9 @@
 		403EBC70269C95C9008DEF3B /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EBC6F269C95C9008DEF3B /* TabBar.swift */; };
 		403EBC73269C96AC008DEF3B /* Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EBC72269C96AC008DEF3B /* Today.swift */; };
 		403EBC76269C9862008DEF3B /* TodayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EBC75269C9862008DEF3B /* TodayItem.swift */; };
+		403EBCA0269D745B008DEF3B /* TodayCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EBC9F269D745B008DEF3B /* TodayCardView.swift */; };
+		403EBCA3269D7D17008DEF3B /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EBCA2269D7D17008DEF3B /* Detail.swift */; };
+		403EBCA7269D7ED6008DEF3B /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EBCA6269D7ED6008DEF3B /* DetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		403EBC6F269C95C9008DEF3B /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		403EBC72269C96AC008DEF3B /* Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today.swift; sourceTree = "<group>"; };
 		403EBC75269C9862008DEF3B /* TodayItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayItem.swift; sourceTree = "<group>"; };
+		403EBC9F269D745B008DEF3B /* TodayCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCardView.swift; sourceTree = "<group>"; };
+		403EBCA2269D7D17008DEF3B /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		403EBCA6269D7ED6008DEF3B /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		403EBC5C269C9541008DEF3B /* SwiftUI_SwipeDownToCloseAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				403EBCA5269D7EC4008DEF3B /* ViewModel */,
 				403EBC6E269C95B8008DEF3B /* Model */,
 				403EBC6D269C95B3008DEF3B /* View */,
 				403EBC5D269C9541008DEF3B /* SwiftUI_SwipeDownToCloseAnimationApp.swift */,
@@ -82,6 +89,8 @@
 			children = (
 				403EBC6F269C95C9008DEF3B /* TabBar.swift */,
 				403EBC72269C96AC008DEF3B /* Today.swift */,
+				403EBC9F269D745B008DEF3B /* TodayCardView.swift */,
+				403EBCA2269D7D17008DEF3B /* Detail.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -92,6 +101,14 @@
 				403EBC75269C9862008DEF3B /* TodayItem.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		403EBCA5269D7EC4008DEF3B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				403EBCA6269D7ED6008DEF3B /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,11 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403EBCA0269D745B008DEF3B /* TodayCardView.swift in Sources */,
+				403EBCA3269D7D17008DEF3B /* Detail.swift in Sources */,
 				403EBC70269C95C9008DEF3B /* TabBar.swift in Sources */,
 				403EBC76269C9862008DEF3B /* TodayItem.swift in Sources */,
 				403EBC60269C9541008DEF3B /* ContentView.swift in Sources */,
 				403EBC5E269C9541008DEF3B /* SwiftUI_SwipeDownToCloseAnimationApp.swift in Sources */,
 				403EBC73269C96AC008DEF3B /* Today.swift in Sources */,
+				403EBCA7269D7ED6008DEF3B /* DetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
